@@ -1,0 +1,28 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://poczujbluesa.pl
+title: Poczuj Bluesa
+email: opjaskowska@gmail.com
+author: Olga Jaśkowska
+description: Gordonowskie zajęcia umuzykalniające.
+  Zapraszam!
+copyright: 'Copyright &copy; 2016 Poczuj Bluesa. All Rights Reserved.'
+#credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: facebook
+    url: https://facebook.com/poczuj.bluesa
