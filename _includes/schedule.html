@@ -1,5 +1,8 @@
-<section id="schedule">
+<section id="schedule" class="uber-section">
 <!-- Page Content -->
+<div class="container ">
+<h1>Grafik</h1>
+</div>
 {% for post in site.posts reversed%}
   {% if post.category == 'Schedule' %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}

@@ -176,3 +176,8 @@ p.copyright {
     object-fit: cover;
     display: inline-block;
 }
+
+.uber-section h1 {
+    margin-top: 40px;
+    font-size: 5em;
+}

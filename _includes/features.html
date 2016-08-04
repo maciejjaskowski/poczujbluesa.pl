@@ -1,7 +1,7 @@
 <section id="services">
 <!-- Page Content -->
 {% for post in site.posts reversed %}
-  {% if post.category == 'Post' %}
+  {% if post.category == 'Feature' %}
 	  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	    {% if thecycle == 'odd' %}
 	    <div class="content-section-a">
@@ -16,7 +16,11 @@
 			    <div class="lead">{{ post.content }}</div>
 			</div>
 			<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-			    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <video loop="" controls="" class="embed-responsive-item img-thumbnail">
+                                <source src="img/{{post.video}}" type="video/mp4">
+                              </video>
+                           </div>
 			</div>
 		    </div>
 
@@ -39,7 +43,11 @@
 			    <div class="lead">{{ post.content }}</div>
 			</div>
 			<div class="col-lg-5 col-sm-pull-6  col-sm-6">
-			  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <video loop="" controls="" class="embed-responsive-item img-thumbnail">
+                                <source src="img/{{post.video}}" type="video/mp4">
+                              </video>
+                           </div>
 			</div>
 		    </div>
 
