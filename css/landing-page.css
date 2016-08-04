@@ -31,8 +31,6 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-//    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .intro-wrapper-out {
@@ -192,5 +190,6 @@ video.intro-video {
     width: 95%;
     height: 100vh;
     object-fit: cover;
+
 }
 
