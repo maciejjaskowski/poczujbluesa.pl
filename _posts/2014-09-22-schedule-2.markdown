@@ -1,0 +1,12 @@
+---
+layout: default
+img: logo-terapeutyczna.png
+category: Schedule
+title: Kawiarnia Terapeutyczna
+description: |
+---
+czwartki 10:00 i 11:15 <br/><br/>
+<a href="https://www.google.pl/maps/dir/Home/Terapeutyczna+Kawiarnia,+Braci+Wag%C3%B3w,+Warsaw/@52.1987213,20.9485142,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x471ecb8761f3dffb:0x8b85050106c55791!2m2!1d20.987837!2d52.2492109!1m5!1m1!1s0x47192d7f145c0091:0x5dc4b5b7c52e8a14!2m2!1d21.0495893!2d52.1431577?hl=en">al. K.E.N. XYZ</a>, <br/>
+Metro Stokłosy,  <br/>
+Ursynów, Warszawa <br/><br/>
+
