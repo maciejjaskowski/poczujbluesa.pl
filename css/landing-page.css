@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
- //   background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -40,8 +40,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .intro-message > h1 {
