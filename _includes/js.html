@@ -12,5 +12,19 @@
 
 <script>
   var myVideo = document.getElementById("intro-video");
-  myVideo.play();
+  video = myVideo
+  
+  function callback() {
+    console.log("Can play through!");
+    myVideo.play()
+  }
+
+  video.addEventListener('canplaythrough', callback);
+
+  // If the video is in the cache of the browser,
+  // the 'canplaythrough' event might have been triggered
+  // before we registered the event handler.
+  if (video.readyState > 3) {
+    callback();
+  }
 </script>
