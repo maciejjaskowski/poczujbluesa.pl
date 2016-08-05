@@ -1,14 +1,22 @@
+
+<script src="js/withinviewport.js"></script>
+
 <!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
 
 <!-- Plugin JavaScript -->
     <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
 
+<script src="js/jquery.scrollstop.min.js"></script>
+
+<script src="js/jquery.withinviewport.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
+
 
 <script>
 /*  var myVideo = document.getElementById("intro-video");
@@ -28,3 +36,27 @@
     callback();
   }*/
 </script>
+
+
+<script>
+$(window).on('resize scrollstop', function() {
+    var toPlay = $('video').withinviewport()
+    $('video:not(.intro-video)').each(function(_, a) { 
+      if ($.inArray(a, toPlay)) 
+           a.pause(); 
+      else
+           a.play(); 
+    });
+    
+});
+</script>
+
+<!--<script>
+
+function play_video(event) {
+  console.log(event.target)
+  $('video:not(.intro-video)').each(function(_, a) { a.pause(); })
+  event.target.play()
+}
+$('video').on('inview', play_video);
+</script>-->
