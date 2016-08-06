@@ -1,8 +1,8 @@
 ---
 layout: default
-video: intro2.webm
+video: indywidualizacja.webm
 category: Feature
-title: Wiedza i indywidualizm
+title: Wiedza i indywidualizacja
 description: |
 ---
 

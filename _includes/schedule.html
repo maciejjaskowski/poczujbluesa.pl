@@ -1,8 +1,7 @@
 <section id="schedule" class="uber-section">
 <!-- Page Content -->
 <div class="container ">
-<h1>Grafik</h1>
-</div>
+<h1 class="text-center">Grafik</h1>
 {% for post in site.posts reversed%}
   {% if post.category == 'Schedule' %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -12,7 +11,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
@@ -43,7 +42,7 @@
                     <div class="lead">{{ post.content }}</div>
                  <a href="https://docs.google.com/forms/d/1ZrVt0W4E3K6bwF0SoS7RFw1cs1NRtTAhqYx7BkZVtwQ" class="btn btn-primary btn-lg"> <span class="network-name">Zapisy</span></a>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-4 col-lg-offset-1 col-sm-pull-6  col-sm-6">
                   <img class="img-responsive" src="img/{{ post.img }}" alt="">
                 </div>
             </div>
@@ -55,5 +54,6 @@
     <!-- /.content-section-b -->
     {% endif %}
     {% endif %}
+</div>
 {% endfor %}
 </section>
