@@ -1,15 +1,120 @@
     <!-- Karnety Section -->
-    <section id="karnety" class="container content-section">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <br/><br/>
-              <h1 class="text-center">Karnety</h1>
-              <br/>
-                <p>Landing-Page is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/landing-page/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>The Jekyll version is brought to you by <a href="https://github.com/swcool">Shane Weng</a></p>
-                <p>This theme features stock photos by <a href="http://join.deathtothestockphoto.com//">Death to the Stock Photo</a>.</p>
-                <p>Landing-Page includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-                <br/>
+    <section id="karnety" class="container content-section uber-section">
+        <h1 class="text-center">Cennik</h1>
+        <div class="container">
+        <br/><br/>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <h3 class="text-center">Karnet 8/10</h3>
+                      <p class="text-center"></p>
+                  </div>
+                  <div class="panel-body text-center">
+                      <p class="lead" style="font-size:30px"><strong>30 zł/zajęcia</strong></p>
+                  </div>
+                  <ul class="list-group list-group-flush text-center">
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-calendar"></span> 8 zajęć
+                      </li>
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-calendar"></span> Ważny 10 tygodni
+                      </li>
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-heart"></span> Prawo do zwrotu pierwszego karnetu
+                      </li>
+                  </ul>
+                  <div class="panel-footer"> <a class="btn btn-lg btn-block btn-primary" href="{{ page.zapisy }}">ZAPISY</a> </div>
               </div>
+          </div>
+          <div class="col-md-4">
+              <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <h3 class="text-center">Karnet 4/5</h3>
+                  </div>
+                  <div class="panel-body text-center">
+                      <p class="lead" style="font-size:30px"><strong>32,5 zł/zajęcia</strong></p>
+                  </div>
+                  <ul class="list-group list-group-flush text-center">
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-calendar"></span> 4 zajęcia
+                      </li>
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-calendar"></span> Ważny 5 tygodni
+                      </li>
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-heart"></span> Prawo do zwrotu pierwszego karnetu
+                      </li>
+                  </ul>
+                  <div class="panel-footer"> <a class="btn btn-lg btn-block btn-primary" href="{{ page.zapisy }}">ZAPISY</a> </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="panel panel-danger">
+                  <div class="panel-heading">
+                      <h3 class="text-center">Pojedyncze zajęcia</h3>
+                  </div>
+                  <div class="panel-body text-center">
+                      <p class="lead" style="font-size:30px"><strong>40 zł/zajęcia</strong></p>
+                  </div>
+                  <ul class="list-group list-group-flush text-center">
+                      <li class="list-group-item">
+                          <span class="glyphicon glyphicon-calendar"></span> 1 zajęcia
+                      </li>
+                      <li class="list-group-item text-danger">
+                      NIEDOSTĘPNY
+                      </li>
+                  </ul>
+                  <div class="panel-footer"> <a class="btn btn-lg btn-block btn-primary disabled" href="{{ page.zapisy }}">ZAPISY</a> </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--        <div class="row">
+              
+            <div class="col-sm-4 lead">
+               <h3>Pojedyncze zajęcia </h3> 
+               <p class="pull-right"><del> 40 zł</del> (niedostępny!) </p>
+            </div>
+            <div class="col-sm-4 lead">
+               <h3>Karnet 4/5</h3> 
+               <p>4&nbsp;zajęcia do wykorzystania w&nbsp;ciągu 5&nbsp;tygodni.</p>
+               <p class="pull-right"> 130 zł (32,5 zł za zajęcia) </p>
+               <ul>
+                 <li>Prawdo do zwrotu pierwszego karnetu</li>
+               </ul>
+            </div>
+            <div class="col-sm-4 lead">
+                   <h3>Karnet 8/10</h3> 
+                   <p>8&nbsp; zajęć do wykorzystania w&nbsp;ciągu 10&nbsp;tygodni.</p>
+                   <p class="pull-right"> 240 zł (<mark>25% taniej!</mark>)</p>
+            </div>-->
+
+            <br/>
+            <div class=" col-sm-5 col-sm-offset-1 lead">
+              <br/>
+              <h2 >Prawo do zwrotu</h2>
+              <br/>
+                <p>Czasem zdarza się, że dziecko ma problem z aklimatyzcja w grupie. Zwykle taki problem zanika po drugich lub trzecich zajęciach.</p>
+                <p>Niemniej, dla Twojej wygody masz prawo do zwrotu niewykorzystanej części pierwszego karnetu bez ponoszenia dodatkowych kosztów.</p>
+            </div>
+            <div class="col-sm-5 lead">
+              <br/>
+              <h2>Pojedyncze zajęcia?</h2>
+              <br/>
+                <p>Tylko regularne uczestniczenie w zajęciach może przynieść pozytywne rezultaty. 
+                   </p>
+                <p>Dlatego w zajęciach Poczuj Bluesa można uczestniczyć wyłącznie poprzez zakupienie karnetu. </p>
+                <p>Dodatkowe korzyści:
+                   <ul>
+                    <li>Mała rotacja w grupie</li>
+                    <li>Lepsza aklimatyzacja dzieci i dorosłych</li>
+                    <li>Konsekwentna realizacja programu</li>
+                    <li>Niższa cena dla wszystkich</li>
+                   </ul>
+                </p>
+                <br/>
+            </div>
         </div>
     </section>
