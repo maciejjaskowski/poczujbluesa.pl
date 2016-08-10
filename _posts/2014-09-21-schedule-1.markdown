@@ -2,11 +2,11 @@
 layout: default
 img: logo-jakwulu.jpg
 category: Schedule
-title: Jak w Ulu
+title: Żoliborz 
 description: |
 ---
 wtorki 9:45, 12:15 i 16:00 <br/><br/>
+Żłobek <a href="http://jakwulu.com.pl">Jak w Ulu</a><br/>
 <a href="https://www.google.pl/maps/dir/Home/Dembi%C5%84skiego+10,+Warszawa/@52.263037,20.9676724,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x471ecb8761f3dffb:0x8b85050106c55791!2m2!1d20.987837!2d52.2492109!1m5!1m1!1s0x471ecbe80c0037a9:0xe9f6fe58ca26a134!2m2!1d20.9767401!2d52.276983?hl=en">ul. Dembińskiego 10</a>, <br/>
-Metro Marymont, <br/>
-Żoliborz, Warszawa <br/><br/>
+Metro Marymont <br/>
 
