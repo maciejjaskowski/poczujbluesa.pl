@@ -1,6 +1,6 @@
 ---
 layout: default
-video: instrument.webm
+video: instrument2.webm
 category: Feature
 title: Instrument
 description: |
