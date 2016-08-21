@@ -197,3 +197,7 @@ video.intro-video {
 #bs-example-navbar-collapse-1 li, #bs-example-navbar-collapse-1 {
     background-color: white;
 }
+
+#karnety .no-border {
+   border: 0px;
+}
