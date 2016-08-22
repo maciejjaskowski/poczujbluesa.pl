@@ -4,6 +4,7 @@ img: logo-jakwulu.jpg
 category: Schedule
 title: Żoliborz 
 description: |
+zapisy_uruchomione: true
 ---
 wtorki 9:45, 12:15 i 16:00 <br/><br/>
 Żłobek <a href="http://jakwulu.com.pl">Jak w Ulu</a><br/>
