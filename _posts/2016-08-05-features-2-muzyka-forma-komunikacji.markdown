@@ -2,7 +2,7 @@
 layout: default
 video: muzyka-forma-komunikacji.webm
 category: Feature
-title: Muzyka forma komunikacji 
+title: Muzyka formą komunikacji 
 description: |
 ---
 
