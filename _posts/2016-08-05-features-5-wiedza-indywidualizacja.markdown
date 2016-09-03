@@ -1,6 +1,5 @@
 ---
 layout: default
-video: indywidualizacja2.webm
 category: Feature
 title: Wiedza i indywidualizacja
 description: |

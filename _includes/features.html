@@ -1,69 +1,50 @@
 <section id="features" class="uber-section">
-<div class="container">
-  <h1 class="text-center">Metoda Gordona</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5">
-          <div class="lead text-justify">
-            
-           <a target="_blank" href="https://www.facebook.com/poczuj.bluesa/photos/a.901872806606122.1073741828.901840786609324/935538756572860/?type=3">Dla kogo i po co są Gordonki? </a><br/> 
-           <a target="_blank" href="https://www.facebook.com/poczuj.bluesa/posts/908765605916842">Na umuzykalnianie nigdy nie jest za wcześnie!</a><br/>
-           <a target="_blank" href="https://www.facebook.com/poczuj.bluesa/photos/a.901872806606122.1073741828.901840786609324/937355016391234/?type=3&theater">Czego się spodziewać na Gordonkach?</a>
-         </div>
-       </div>
-     </div>
-   </div>
-</div>
 <!-- Page Content -->
-{% for post in site.posts reversed %}
-  {% if post.category == 'Feature' %}
-	  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-	    {% if thecycle == 'odd' %}
-	    <div class="content-section-a">
-
-		<div class="container">
-
-		    <div class="row">
-			<div class="col-lg-5 col-sm-6">
-			    <hr class="section-heading-spacer">
-			    <div class="clearfix"></div>
-			    <h2 class="section-heading">{{ post.title }}</h2>
-			    <div class="lead text-justify">{{ post.content }}</div>
-			</div>
-			<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            <div class="embed-responsive embed-responsive-16by9">
-                              <video muted="" loop="" controls="" class="embed-responsive-item img-thumbnail">
-                                <source src="img/{{post.video}}" type="video/mp4">
-                              </video>
-                           </div>
-			</div>
-		    </div>
-
-		</div>
-		<!-- /.container -->
-
-	    </div>
-	    <!-- /.content-section-a -->
-	    {% else %}
-
 	    <div class="content-section-b">
 
 		<div class="container">
+                   <h1 class="text-center">Metoda Gordona</h1>
 
 		    <div class="row">
-			<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-			    <hr class="section-heading-spacer">
-			    <div class="clearfix"></div>
-			    <h2 class="section-heading">{{ post.title }}</h2>
-			    <div class="lead text-justify">{{ post.content }}</div>
-			</div>
-			<div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                            <div class="embed-responsive embed-responsive-16by9">
-                              <video muted="" loop="" controls="" class="embed-responsive-item img-thumbnail">
-                                <source src="img/{{post.video}}" type="video/mp4">
-                              </video>
-                           </div>
-			</div>
+			{% for post in site.posts reversed %}
+			  {% if post.category == 'Feature' %}
+                             {% if post.video %}
+				<div class="col-sm-8 col-sm-offset-2" style="margin-top:50px; margin-bottom:50px;">
+				    <div class="embed-responsive embed-responsive-16by9">
+				      <video muted="" loop="" controls="" class="embed-responsive-item img-thumbnail">
+					<source src="img/{{post.video}}" type="video/mp4">
+				      </video>
+				   </div>
+                                   <div class="lead">
+                                     {{ post.content }}
+                                   </div>
+				</div>
+				<!--  <div class="fb-video" data-href="https://www.facebook.com/poczuj.bluesa/videos/942848119175257/" data-width="500" data-show-text="false">
+				    <div class="fb-xfbml-parse-ignore">
+				      <blockquote cite="https://www.facebook.com/poczuj.bluesa/videos/942848119175257/">
+					<a href="https://www.facebook.com/poczuj.bluesa/videos/942848119175257/">Maluchy słuchają, tańczą, a czasami nawet śpiewają :-)</a>
+				      </blockquote>
+				    </div>
+				  </div>-->
+
+                             {% else %}
+
+				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+				{% if thecycle == 'odd' %}
+					<div class="col-sm-5 col-sm-offset-1">
+					    <h2 class="section-heading">{{ post.title }}</h2>
+					    <div class="lead text-justify">{{ post.content }}</div>
+					</div>
+                                {% else %}
+					<div class="col-sm-5 col-sm-offset-1">
+					    <h2 class="section-heading">{{ post.title }}</h2>
+					    <div class="lead text-justify">{{ post.content }}</div>
+					</div>
+
+                                {% endif %} <!-- cycle -->
+                            {% endif %} <!-- post.video -->
+                         {% endif %} <!-- post.category -->
+                      {% endfor %}
 		    </div>
 
 		</div>
@@ -71,7 +52,4 @@
 
 	    </div>
 	    <!-- /.content-section-b -->
-	    {% endif %}
-  {% endif %}
-{% endfor %}
 </section>

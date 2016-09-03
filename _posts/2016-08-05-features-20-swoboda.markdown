@@ -1,6 +1,5 @@
 ---
 layout: default
-video: swoboda.webm
 category: Feature
 title: Swoboda
 description: |

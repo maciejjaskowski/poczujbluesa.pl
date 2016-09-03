@@ -17,28 +17,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
 
-
-<script>
-/*  var myVideo = document.getElementById("intro-video");
-  video = myVideo
-  
-  function callback() {
-    console.log("Can play through!");
-    myVideo.play()
-  }
-
-  video.addEventListener('canplaythrough', callback);
-
-  // If the video is in the cache of the browser,
-  // the 'canplaythrough' event might have been triggered
-  // before we registered the event handler.
-  if (video.readyState > 3) {
-    callback();
-  }*/
-</script>
-
-
-<script>
+<!--<script>
 $(window).on('resize scrollstop', function() {
     var toPlay = $('video').withinviewport()
     $('video:not(.intro-video)').each(function(_, a) { 
@@ -49,18 +28,7 @@ $(window).on('resize scrollstop', function() {
     });
     
 });
-</script>
-
-<!--<script>
-
-function play_video(event) {
-  console.log(event.target)
-  $('video:not(.intro-video)').each(function(_, a) { a.pause(); })
-  event.target.play()
-}
-$('video').on('inview', play_video);
 </script>-->
-
 
 <script type="application/ld+json">
 {
@@ -73,4 +41,5 @@ $('video').on('inview', play_video);
     "contactType": "customer service"
   }]
 }
+
 </script>
