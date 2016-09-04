@@ -11,7 +11,7 @@
                              {% if post.video %}
 				<div class="col-sm-8 col-sm-offset-2" style="margin-top:50px; margin-bottom:50px;">
 				    <div class="embed-responsive embed-responsive-16by9">
-				      <video loop="" controls="" class="embed-responsive-item img-thumbnail">
+				      <video loop="" controls="" class="embed-responsive-item img-thumbnail" poster="img/{{post.video_placeholder}}">
 					<source src="img/{{post.video}}" type="video/mp4">
 				      </video>
 				   </div>
