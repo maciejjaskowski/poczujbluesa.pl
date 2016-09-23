@@ -9,5 +9,8 @@
     <h1>Przekierowuję...</h1>
       <a href="{{ page.redirect_to }}">Kliknij tu, jeśli nie zostałeś/aś przekierowana.<a>
       <script>location='{{ page.redirect_to }}'</script>
+
+      {% include js.html %}
+
 </body>
 </html>
