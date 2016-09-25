@@ -3,6 +3,7 @@
 
 <!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
+<script src="js/isOnScreen.js"></script>
 
 <!-- Plugin JavaScript -->
     <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
@@ -17,18 +18,30 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
 
-<!--<script>
-$(window).on('resize scrollstop', function() {
-    var toPlay = $('video').withinviewport()
-    $('video:not(.intro-video)').each(function(_, a) { 
-      if ($.inArray(a, toPlay)) 
-           a.pause(); 
-      else
-           a.play(); 
-    });
-    
-});
-</script>-->
+<script>
+(function($) {
+	$(window).on("scrollstart", function() {
+	  }).on('scrollstop', function() {
+	   var a = $('section')
+           var b = []
+           var max = 0
+           var max_val = 0
+	   for (i = 0; i < a.length; i++) { 
+             
+	      b.push([a[i].id, $(a[i]).isOnScreen()])
+              if (max_val < $(a[i]).isOnScreen()[2]) {
+                 max = i
+                 max_id = a[max].id
+                 max_val = $(a[max]).isOnScreen()[2]
+              }
+	   }
+//           console.log(b)
+//           console.log(max_id, max_val)
+           
+	   ga('send', 'event', max_id, 'scrollstop');
+	});
+})(jQuery)
+</script>
 
 <script type="application/ld+json">
 {
