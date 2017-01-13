@@ -68,3 +68,6 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+$('.item').css('min-height', Math.max.apply(null, $(".item").map(function(_,x) { return $(x).height() })))
+</script>
