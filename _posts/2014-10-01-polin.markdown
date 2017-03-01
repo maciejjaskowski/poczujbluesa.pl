@@ -1,0 +1,12 @@
+---
+layout: default
+img: logo-polin.png
+category: Schedule
+title: Metro Ratusz Arsenał
+description: |
+---
+poniedziałki 14:00 <br/><br/>
+<a href="http://www.polin.pl/pl/spotkania-dla-rodzicow">Muzeum POLIN</a><br/>
+<a href="https://www.google.pl/maps/place/Museum+of+the+History+of+Polish+Jews/@52.2493743,20.9909952,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc79a995b873:0xe21ada43504430b0!8m2!3d52.2493743!4d20.9931839?hl=en">Anielewicza 6</a><br/>
+
+Zapisy wyłącznie przez POLIN.

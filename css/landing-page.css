@@ -238,4 +238,14 @@ video.intro-video {
   background-color: white;
 }
 
+.well {
+    font-size: 2.5em;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
 
+.vcenter {
+    vertical-align: middle;
+    float: none;
+    display: inline-block;
+}
