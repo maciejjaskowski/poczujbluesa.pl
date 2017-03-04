@@ -5,16 +5,13 @@
 {% for post in site.posts reversed%}
   {% if post.category == 'Schedule' %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
     <div class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-3 col-lg-offset-2 col-sm-6 vcenter">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                <div class="col-lg-3 vcenter">
+                    <h2 class="section-heading"><span style="font-size: small" >Metro</span> {{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                     {% if post.zapisy_uruchomione %}
                       <a href="{{ page.zapisy }}" class="btn btn-primary btn-lg"> <span class="network-name">Zapisy</span></a>
@@ -22,9 +19,15 @@
                       <p><a href="{{ page.regulamin }}" target="_blank">Regulamin</a></p>
                    {% else %}
                    {% endif %}
+
                 </div><!--
-             --><div class="col-lg-5 col-lg-offset-2 col-sm-6 vcenter">
-                    <img class="img-responsive" src="img/{{ post.img }}" alt="">
+             --><div class="col-lg-5">
+                  <iframe src="{{ post.embed_map }}"  width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div> <!--
+             --><div class="col-lg-4 vcenter">
+                   <a href="{{ post.host_url }}">
+                    <img class="img-responsive" style="margin: 0 auto" src="img/{{ post.img }}" alt="">
+                   </a>
                 </div>
             </div>
 
@@ -32,36 +35,6 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-a -->
-    {% else %}
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 vcenter">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content }}</div>
-                    {% if post.zapisy_uruchomione %}
-                    <a href="{{ page.zapisy }}" class="btn btn-primary btn-lg"> <span class="network-name">Zapisy</span></a>
-                    <br/><br/>
-                    <p><a href="{{ page.regulamin }}" target="_blank">Regulamin</a></p>
-                    {% endif %}
-                </div><!--
-             --><div class="col-lg-4 col-lg-offset-1 col-sm-pull-6  col-sm-6 vcenter">
-                  <img class="img-responsive" src="img/{{ post.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    {% endif %}
     {% endif %}
 </div>
 {% endfor %}

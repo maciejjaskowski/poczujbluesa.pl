@@ -2,11 +2,11 @@
 layout: default
 img: logo-sho.png
 category: Schedule
-title: Metro Stare Bielany
+title: Stare Bielany
 description: |
 zapisy_uruchomione: true
+embed_map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9764.371706215346!2d20.936517!3d52.2780149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbcc99c765c1%3A0x78a98066d6817e5b!2sSzko%C5%82a+Ta%C5%84c%C3%B3w+Karaibskich+SalsHall+Ortodox!5e0!3m2!1sen!2spl!4v1488648127132
+host_url: http://sho.pl
 ---
 czwartki 11:00 i 12:00 <br/><br/>
-Szkoła Tańców Karaibskich <a href="http://sho.pl">Sho</a><br/>
-<a href="https://www.google.pl/maps/place/Kleczewska+38,+Warszawa/@52.278479,20.9433474,19z/data=!3m1!4b1!4m5!3m4!1s0x471ecbcc977ca6b9:0xb7a8aaca1286889f!8m2!3d52.278479!4d20.9438959">ul. Kleczewska 38</a>, <br/>
 

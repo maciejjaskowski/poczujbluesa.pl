@@ -2,11 +2,11 @@
 layout: default
 img: logo-stopociech.png
 category: Schedule
-title: Metro Ratusz Arsenał
+title: Ratusz Arsenał
 description: |
+host_url: http://www.stopociech.pl
+embed_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9770.105749109993!2d21.00000406774794!3d52.25198476381017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6fd475ddcf%3A0x39db188d49d5be8b!2sSto+Pociech.+Fundacja!5e0!3m2!1sen!2spl!4v1488651140596
 ---
 Do końca lutego 2017.<br/><br/>
-poniedziałki 9:30 <br/><br/>
-<a href="www.stopociech.pl">Fundacja Sto Pociech</a><br/>
-<a href="https://www.google.pl/maps/place/Fundacja+%22Sto+Pociech%22/@52.2518031,21.0059287,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc6fd475ddcf:0x39db188d49d5be8b!8m2!3d52.2517998!4d21.0081227?hl=en">ul. Freta 20/24a</a><br/>
+poniedziałki 9:30 
 
