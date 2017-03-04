@@ -7,6 +7,6 @@ description: |
 zapisy_uruchomione: true
 ---
 czwartki 11:00 i 12:00 <br/><br/>
-Szkoła Tańców Karaibskich <a href="http://jakwulu.com.pl">Sho</a><br/>
-<a href="https://www.google.pl/maps/place/Dembi%C5%84skiego+10,+Warszawa/@52.2769863,20.9745461,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecbe80c0037a9:0xe9f6fe58ca26a134!8m2!3d52.276983!4d20.9767401">Ul. Kleczewska 38/40</a>, <br/>
+Szkoła Tańców Karaibskich <a href="http://sho.pl">Sho</a><br/>
+<a href="https://www.google.pl/maps/place/Kleczewska+38,+Warszawa/@52.278479,20.9433474,19z/data=!3m1!4b1!4m5!3m4!1s0x471ecbcc977ca6b9:0xb7a8aaca1286889f!8m2!3d52.278479!4d20.9438959">ul. Kleczewska 38</a>, <br/>
 
