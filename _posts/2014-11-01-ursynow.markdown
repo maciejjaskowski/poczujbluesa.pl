@@ -3,6 +3,7 @@ layout: default
 img: logo-poczujbluesa.png
 category: Schedule
 title: Ursynów
+district: Ursynów
 description: |
 ---
 <!--czwartki 10:00 i 11:15 <br/><br/>

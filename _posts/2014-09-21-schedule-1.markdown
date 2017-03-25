@@ -3,6 +3,7 @@ layout: default
 img: logo-jakwulu2.jpg
 category: Schedule
 title: Marymont
+district: Żoliborz
 description: |
 zapisy_uruchomione: true
 embed_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9764.598337776506!2d20.967985367749087!3d52.27698626196356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbe80c0037a9%3A0x76c71015327747b5!2sPoczuj+Bluesa+-+Gordonki!5e0!3m2!1sen!2spl!4v1488650037411
