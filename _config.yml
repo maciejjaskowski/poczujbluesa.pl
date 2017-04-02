@@ -27,3 +27,6 @@ permalink: pretty
 social:
   - title: facebook
     url: https://facebook.com/poczuj.bluesa
+
+sass:
+  style: :compressed

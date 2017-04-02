@@ -1,0 +1,21 @@
+
+<section id="blog" class="uber-section">
+<div class="container">
+<h1 class="text-center" style="margin-top:50px">Blog</h1>
+<div class="content list">
+{% for post in site.posts %}
+  {% if post.category == 'blog' %}
+  <div class="list-item" style="text-align: center; padding-top: 50px">
+    <h2 class="list-post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="list-post-date">
+      <time>{{ post.date | date_to_string }}</time>
+    </div>
+  </div>
+  {%endif%}
+{% endfor %}
+</div>
+
+</div>
+</section>
