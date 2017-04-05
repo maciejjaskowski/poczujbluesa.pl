@@ -2,6 +2,8 @@
 layout: blogentry
 category: blog
 title: Co to są gordonki?
+description: Czyli czym zajęcia gordonowskie różnią się od rytmiki i innych zajęć umuzykalniających dla dzieci
+type: article
 ---
 
 Można by powiedzieć, że są to rytmika lub zajęcia umuzykalniające dla dzieci lub niemowląt, ale byłoby to wielkie uproszczenie. 

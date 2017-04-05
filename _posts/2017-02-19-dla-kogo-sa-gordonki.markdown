@@ -2,6 +2,8 @@
 layout: blogentry
 category: blog
 title: Dla kogo są gordonki?
+description: Czyli o tym, że rodzic nie musi być wirtuozem ;)
+type: article
 ---
 
 Rodzice często mnie pytają czy sami muszą potrafić śpiewać, żeby uczestniczyć ze swoim dzieckiem na gordonki. 
