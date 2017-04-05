@@ -8,7 +8,7 @@ description: O tym, że gordonki to nie monolog...
 
 Parę tygodni temu pewna Mama zwróciła mi uwagę, że (inaczej niż na wszystkich innych konkurencyjnych zajęciach) podczas naszych zajęć często zapada "niezręczna" cisza.
 
-Opisując [co to są gordonki](/blog/2017/04/02/co-to-sa-gordonki/) wspomniałam już, że cisza jest kluczowa, ale rozumiem, że dla części rodziców może to nie być zupełnie jasne.  
+Opisując [co to są gordonki](/blog/2017/01/21/co-to-sa-gordonki) wspomniałam już, że cisza jest kluczowa, ale rozumiem, że dla części rodziców może to nie być zupełnie jasne.  
 
 Sama ze szkoły pamiętam takich nauczycieli, którzy uważali, że lekcja polega na tym, że to oni przez 45 minut bez przerwy mówią, a ja mam to zakuć i zdać ;)
 

@@ -2,6 +2,8 @@
 layout: blogentry
 category: blog
 title: Zajęcia muzyczne dla niemowlaków
+type: article
+description: O tym ile niemowlak może skorzystać z zajęć gordonowskich
 ---
 
 Wiele osób pyta mnie o dolną granicę wieku, w jakim dzieci mogą zacząć uczestniczyć w zajęciach gordonowskich, aby miało to sens. 
