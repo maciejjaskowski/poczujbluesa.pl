@@ -3,17 +3,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="zajęcia gordonowskie,gordonki,zajęcia umuzykalniające">
     <meta name="author" content="{{ site.author }}">
 
     <meta name="google-site-verification" content="SVIK64kLqYRWhps0rLdw9_VZjRtQbQiAayVPdyCBb90" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
+    {% if page.type %}
+      <meta property="og:type" content="{{ page.type }}" />
+    {% else %}
+      <meta property="og:type" content="website" />
+    {% endif %}
+    {% if page.title %}
+      <meta property="og:title" content="{{ page.title }}">
+    {% else %}
+      <meta property="og:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+      <meta property="og:description" content="{{ page.description }}">
+      <meta name="description" content="{{ page.description }}">
+    {% else %}
+      <meta property="og:description" content="{{ site.description }}">
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
     <meta property="og:image" content="{{ site.image }}">
-    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:url" content="{{site.url}}{{ page.url }}">
     <meta property="og:locale" content="{{ site.locale }}">
 <!--    <meta property="fb:app_id" content="901840786609324">-->
     <meta property="fb:admins" content="1032400043"/>

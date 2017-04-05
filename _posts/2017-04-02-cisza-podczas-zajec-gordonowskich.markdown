@@ -1,7 +1,9 @@
 ---
 layout: blogentry
 category: blog
-title: Cisza podczas zajęć gordonowskich
+type: article
+title: Cisza podczas zajęć gordonowskich.
+description: O tym, że gordonki to nie monolog...
 ---
 
 Parę tygodni temu pewna Mama zwróciła mi uwagę, że (inaczej niż na wszystkich innych konkurencyjnych zajęciach) podczas naszych zajęć często zapada "niezręczna" cisza.
