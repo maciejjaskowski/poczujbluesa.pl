@@ -3,7 +3,7 @@ layout: blogentry
 category: blog
 type: article
 title: Cisza podczas zajęć gordonowskich.
-description: O tym, że gordonki to nie monolog...
+description: O tym, że gordonki to nie monolog, a cisza jest kluczowa.
 ---
 
 Parę tygodni temu pewna Mama zwróciła mi uwagę, że (inaczej niż na wszystkich innych konkurencyjnych zajęciach) podczas naszych zajęć często zapada "niezręczna" cisza.

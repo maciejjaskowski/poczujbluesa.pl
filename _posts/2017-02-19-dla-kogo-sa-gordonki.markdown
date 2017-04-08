@@ -2,7 +2,7 @@
 layout: blogentry
 category: blog
 title: Dla kogo są gordonki?
-description: Czyli o tym, że rodzic nie musi być wirtuozem ;)
+description: O tym, że zapraszamy wszystkich rodziców :-)
 type: article
 ---
 
