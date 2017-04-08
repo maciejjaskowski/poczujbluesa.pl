@@ -10,3 +10,5 @@ embed_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9764.5983377765
 host_url: http://jakwulu.com.pl/
 ---
 wtorki 9:45, 12:15 i 16:00 
+
+ul. Dembińskiego 10

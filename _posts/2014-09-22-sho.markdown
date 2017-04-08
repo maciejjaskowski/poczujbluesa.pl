@@ -11,3 +11,4 @@ host_url: http://sho.pl
 ---
 czwartki 11:00 i 12:00 <br/><br/>
 
+ul. Kleczewska 38/40
