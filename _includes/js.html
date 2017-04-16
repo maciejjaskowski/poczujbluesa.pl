@@ -19,9 +19,12 @@
 <script src="js/landing-page.js"></script>
 
 <script>
+  $('#modal-potwierdzam').on('hidden.bs.modal', function () {
+    window.location.replace("/");
+  });
   params={};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v})
   if(params["potwierdzam"] == 1) {
-    $.post("https://docs.google.com/forms/d/e/1FAIpQLSfX8-EUXHYMvXW5Dn78yfQ2yITiMX-KcH9OpQw5M9CO7jwQGQ/formResponse", {"entry.1969982019": params["email"]}, function(data) {
+    $.post("https://docs.google.com/forms/d/e/1FAIpQLSfX8-EUXHYMvXW5Dn78yfQ2yITiMX-KcH9OpQw5M9CO7jwQGQ/formResponse", {"entry.1969982019": params["id"]}, function(data) {
       $("#modal-potwierdzam").modal('show')
     }).error(function() {
       $("#modal-potwierdzam").modal('show')
