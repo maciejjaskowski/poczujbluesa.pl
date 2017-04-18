@@ -96,3 +96,20 @@
 <script>
 //$('.item').css('min-height', Math.max.apply(null, $(".item").map(function(_,x) { return $(x).height() })))
 </script>
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "901840786609324", // Facebook page ID
+            company_logo_url: "//scontent.xx.fbcdn.net/v/t1.0-1/p100x100/13615511_901841303275939_4119015809358691943_n.png?oh=361a57448c3ef652c59c84de01206a4d&oe=59929250", // URL of company logo (png, jpg, gif)
+            greeting_message: "W czym mogę pomóc?", // Text of greeting message
+            call_to_action: "", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
