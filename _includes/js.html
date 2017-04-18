@@ -29,6 +29,8 @@
     }).error(function() {
       $("#modal-potwierdzam").modal('show')
     })  
+    ga('send', 'event', 'acquisition', 'email_confirmed');
+    fbq('track', 'CompleteRegistration');
   }
 </script>
 
