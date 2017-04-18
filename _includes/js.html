@@ -24,13 +24,13 @@
   });
   params={};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v})
   if(params["potwierdzam"] == 1) {
+    ga('send', 'event', 'acquisition', 'CompleteRegistration');
+    fbq('track', 'CompleteRegistration');
     $.post("https://docs.google.com/forms/d/e/1FAIpQLSfX8-EUXHYMvXW5Dn78yfQ2yITiMX-KcH9OpQw5M9CO7jwQGQ/formResponse", {"entry.1969982019": params["id"]}, function(data) {
       $("#modal-potwierdzam").modal('show')
     }).error(function() {
       $("#modal-potwierdzam").modal('show')
     })  
-    ga('send', 'event', 'acquisition', 'CompleteRegistration');
-    fbq('track', 'CompleteRegistration');
   }
 </script>
 
