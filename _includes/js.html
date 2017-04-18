@@ -18,21 +18,6 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/landing-page.js"></script>
 
-<script>
-  $('#modal-potwierdzam').on('hidden.bs.modal', function () {
-    window.location.replace("/");
-  });
-  params={};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v})
-  if(params["potwierdzam"] == 1) {
-    ga('send', 'event', 'acquisition', 'CompleteRegistration');
-    fbq('track', 'CompleteRegistration');
-    $.post("https://docs.google.com/forms/d/e/1FAIpQLSfX8-EUXHYMvXW5Dn78yfQ2yITiMX-KcH9OpQw5M9CO7jwQGQ/formResponse", {"entry.1969982019": params["id"]}, function(data) {
-      $("#modal-potwierdzam").modal('show')
-    }).error(function() {
-      $("#modal-potwierdzam").modal('show')
-    })  
-  }
-</script>
 
 <script>
 (function($) {
@@ -83,6 +68,23 @@
   ga('create', 'UA-84640020-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+  (function($){
+  $('#modal-potwierdzam').on('hidden.bs.modal', function () {
+    window.location.replace("/");
+  });
+  params={};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v})
+  if(params["potwierdzam"] == 1) {
+    ga('send', 'event', 'acquisition', 'CompleteRegistration');
+    fbq('track', 'CompleteRegistration');
+    $.post("https://docs.google.com/forms/d/e/1FAIpQLSfX8-EUXHYMvXW5Dn78yfQ2yITiMX-KcH9OpQw5M9CO7jwQGQ/formResponse", {"entry.1969982019": params["id"]}, function(data) {
+      $("#modal-potwierdzam").modal('show')
+    }).error(function() {
+      $("#modal-potwierdzam").modal('show')
+    })  
+  }
+  })(jQuery)
 </script>
 <script>
 //$('.item').css('min-height', Math.max.apply(null, $(".item").map(function(_,x) { return $(x).height() })))
