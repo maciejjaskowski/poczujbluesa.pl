@@ -9,6 +9,6 @@ zapisy_uruchomione: true
 embed_map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9764.371706215346!2d20.936517!3d52.2780149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbcc99c765c1%3A0x78a98066d6817e5b!2sSzko%C5%82a+Ta%C5%84c%C3%B3w+Karaibskich+SalsHall+Ortodox!5e0!3m2!1sen!2spl!4v1488648127132
 host_url: http://sho.pl
 ---
-czwartki 11:00 i 12:00 <br/><br/>
+czwartki 12:00 <br/><br/>
 
 ul. Kleczewska 38/40
