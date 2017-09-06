@@ -1,7 +1,7 @@
 ---
 layout: default
 img: logo-stopociech.png
-category: Schedule
+category: removedSchedule
 title: Ratusz Arsenał
 district: Śródmieście
 description: |
