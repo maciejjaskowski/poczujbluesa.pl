@@ -1,0 +1,14 @@
+---
+layout: default
+img: logo-polin.png
+category: removedSchedule
+title: Ratusz Arsenał
+district: Śródmieście
+description: |
+embed_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9770.679964468298!2d20.98442916774786!3d52.249377564002785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc79a995b873%3A0xe21ada43504430b0!2sMuseum+of+the+History+of+Polish+Jews!5e0!3m2!1sen!2spl!4v1488650101366
+host_url: http://www.polin.pl
+---
+poniedziałki 14:00 <br/><br/>
+
+
+Zapisy wyłącznie przez stronę <a href="http://www.polin.pl/pl/spotkania-dla-rodzicow">Muzeum POLIN</a>.
