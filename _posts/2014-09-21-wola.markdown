@@ -1,0 +1,16 @@
+---
+layout: default
+img: gymjoy_logo.png
+category: Schedule
+title: Rondo Daszyńskiego 
+district: Wola
+description: |
+zapisy_uruchomione: false
+embed_map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4887.290699168378!2d20.982062639672854!3d52.23166084030151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc833ddd68bd%3A0xb7bb7d6d7267e4ff!2sGrzybowska+88%2C+Warszawa!5e0!3m2!1sen!2spl!4v1510816391357
+host_url: http://sho.pl
+---
+piątki 10:00  <br/><br/>
+
+<a href="http://www.gymjoy.pl">Gym&Joy Academy</a>, ul. Grzybowska 88
+
+zapisy przez Gym&Joy Academy: <a href="tel:+48690987787">690987787</a>
